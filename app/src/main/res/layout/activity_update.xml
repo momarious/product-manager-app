@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activity.UpdateActivity">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:orientation="vertical"
+        android:padding="15dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:text="Update Product"
+            android:textAlignment="center"
+            android:textAppearance="@style/Base.TextAppearance.AppCompat.Large"
+            android:textColor="@color/colorPrimaryDark" />
+
+        <EditText
+            android:id="@+id/update_name_et"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:hint="Name"
+            android:padding="10dp" />
+
+        <EditText
+            android:id="@+id/update_brand_et"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:hint="Brand"
+            android:padding="10dp" />
+
+
+        <EditText
+            android:id="@+id/update_description_et"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:hint="Description"
+            android:padding="10dp" />
+
+        <EditText
+            android:id="@+id/update_price_et"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:digits="0123456789."
+            android:hint="Price"
+            android:inputType="numberDecimal"
+            android:padding="10dp" />
+
+        <EditText
+            android:id="@+id/update_quantity_et"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:digits="0123456789"
+            android:hint="Quantity"
+            android:inputType="numberDecimal"
+            android:padding="10dp" />
+
+        <Button
+            android:id="@+id/update_bt"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:text="Update"/>
+
+        <Button
+            android:id="@+id/delete_bt"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:text="Delete"/>
+
+    </LinearLayout>
+
+</RelativeLayout>

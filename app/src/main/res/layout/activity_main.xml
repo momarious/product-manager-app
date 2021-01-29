@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activity.MainActivity">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:orientation="vertical"
+        android:padding="15dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:text="Save Product"
+            android:textAlignment="center"
+            android:textAppearance="@style/Base.TextAppearance.AppCompat.Large"
+            android:textColor="@color/colorPrimaryDark" />
+
+        <EditText
+            android:id="@+id/main_name_et"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:hint="Name"
+            android:padding="10dp" />
+
+        <EditText
+            android:id="@+id/main_brand_et"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:hint="Brand"
+            android:padding="10dp" />
+
+
+        <EditText
+            android:id="@+id/main_description_et"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:hint="Description"
+            android:padding="10dp" />
+
+        <EditText
+            android:id="@+id/main_price_et"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:digits="0123456789."
+            android:hint="Price"
+            android:inputType="numberDecimal"
+            android:padding="10dp" />
+
+        <EditText
+            android:id="@+id/main_quantity_et"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:digits="0123456789"
+            android:hint="Quantity"
+            android:inputType="numberDecimal"
+            android:padding="10dp" />
+
+        <Button
+            android:id="@+id/main_save_bt"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:text="save" />
+
+        <TextView
+            android:id="@+id/main_products_tv"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:text="View Products"
+            android:textAlignment="center"
+            android:textAppearance="@style/Base.TextAppearance.AppCompat.Large"
+            android:textColor="@color/colorPrimaryDark" />
+
+
+    </LinearLayout>
+
+
+</RelativeLayout>
